@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-0. Pascal's Triangle
+Making a Pascal Triangel
 """
 
 
 def pascal_triangle(n):
-    """Create a function def pascal_triangle(n): that returns a list of lists
-    of integers representing the Pascal’s triangle of n
+    """
+	pascal_triangle(n) that generates and returns a list of lists representing the first n rows of Pascal's triangle
     """
     res = []
     if n > 0:
