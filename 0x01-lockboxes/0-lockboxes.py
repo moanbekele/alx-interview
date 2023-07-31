@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''odule designed to handle or manipulate lockboxes.
+'''Module designed for handling or manipulation lockboxes.
 '''
 
 
