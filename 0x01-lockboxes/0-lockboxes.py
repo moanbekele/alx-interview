@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-'''Module designed for handling or manipulation lockboxes.
+'''A module for working with lockboxes.
 '''
 
 
 def canUnlockAll(boxes):
-    '''
-    This code defines a function that determines whether it is possible to unlock all the boxes in a list of boxes.
-    Each box is represented by a list of integers that correspond to the indices of other boxes that can be unlocked with the keys inside that box.
-    The function assumes that the first box is already unlocked, 
-    and checks whether it is possible to unlock all the other boxes in the list using the keys found in the boxes that have already been opened.
+    '''Checks if all the boxes in a list of boxes containing the keys
+    (indices) to other boxes can be unlocked given that the first
+    box is unlocked.
     '''
     n = len(boxes)
     seen_boxes = set([0])
