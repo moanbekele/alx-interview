@@ -12,7 +12,7 @@ def extract_input(input_line):
         r'\s*\[(?P<date>\d+\-\d+\-\d+ \d+:\d+:\d+\.\d+)\]',
         r'\s*"(?P<request>[^"]*)"\s*',
         r'\s*(?P<status_code>\S+)',
-        r'\s*(?P<file_type>\d+)'
+        r'\s*(?P<file_size>\d+)'
     )
     info = {
         'status_code': 0,
