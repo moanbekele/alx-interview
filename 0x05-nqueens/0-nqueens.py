@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""module that can be used to find all possible arrangements of N queens on an NxN chessboard such that no two queens attack each other.
+"""N queens solution finder module.
 """
 import sys
 
 
 solutions = []
-"""The complete enumeration of all possible arrangements of N queens on an NxN chessboard.
+"""The list of possible solutions to the N queens problem.
 """
 n = 0
 """The size of the chessboard.
